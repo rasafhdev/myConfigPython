@@ -1,15 +1,15 @@
 #### Instalar pacotes a seguir
 ```
-sudo apt install git curl build-essential dkms perl wget -y
-sudo apt install gcc make default-libmysqlclient-dev libssl-dev -y
-sudo apt install -y zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev llvm \
+sudo dnf install git curl build-essential dkms perl wget -y
+sudo dnf install gcc make default-libmysqlclient-dev libssl-dev -y
+sudo dnf install -y zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev llvm \
   libncurses5-dev libncursesw5-dev \
   xz-utils tk-dev libffi-dev liblzma-dev python3-openssl git
 ```
 
 #### Instalar e configurar ZSH
 ```
-sudo apt install zsh -y
+sudo dnf install zsh -y
 chsh -s /bin/zsh
 zsh
 ```
